@@ -1,0 +1,34 @@
+Charm++> No provisioning arguments specified. Running with a single PE.
+         Use +auto-provision to fully subscribe resources or +p1 to silence this message.
+Charm++: standalone mode (not using charmrun)
+Charm++> Running in Multicore mode: 1 threads (PEs)
+Charm++> Using recursive bisection (scheme 3) for topology aware partitions
+Converse/Charm++ Commit ID: 
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 hosts (1 sockets x 16 cores x 1 PUs = 16-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+CharmLB> Load balancing instrumentation for communication is off.
+Info: NAMD 3.0.2 for Linux-x86_64-multicore
+Info: 
+Info: Please visit http://www.ks.uiuc.edu/Research/namd/
+Info: for updates, documentation, and support information.
+Info: 
+Info: Please cite Phillips et al., J. Chem. Phys. 153:044130 (2020) doi:10.1063/5.0014475
+Info: in all publications reporting results obtained with NAMD.
+Info: 
+Info: Based on Charm++/Converse 80000 for multicore-linux-x86_64-gcc
+Info: Built Wed Aug 27 15:39:24 CDT 2025 by dhardy on athine.ks.uiuc.edu
+Info: 1 NAMD  3.0.2  Linux-x86_64-multicore  1    AxelSerrano  axel
+Info: Running on 1 processors, 1 nodes, 1 physical nodes.
+Info: CPU topology information available.
+Info: Charm++/Converse parallel runtime startup completed at 0.0301288 s
+CkLoopLib is used in SMP with simple dynamic scheduling (converse-level notification)
+Info: 23.8047 MB of memory in use based on /proc/self/stat
+Info: Configuration file is step4_equilibration.inp
+Info: Working in the current directory /mnt/c/Users/axels/OneDrive/BIO496/charmm-gui-9182802503
+TCL: wrong # args: should be "open fileName ?access? ?permissions?"
+FATAL ERROR: wrong # args: should be "open fileName ?access? ?permissions?"
+    while executing
+"open read unit 10 card name step3_pbcsetup.psf"
+    (file "step4_equilibration.inp" line 11)
+[Partition 0][Node 0] End of program

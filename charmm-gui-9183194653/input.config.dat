@@ -1,0 +1,1 @@
+{"systype":"solution","dimensions":["103","103","103",90,90,90],"input":["namd"],"forcefield":{"type":"c36m","files":["default"],"custom":["uploaded_files\/toppar.str"]},"hmr":false}
