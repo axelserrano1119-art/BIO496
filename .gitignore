@@ -1,2 +1,14 @@
 NAMD_3.0.2_Linux-x86_64-multicore/
 desktop.ini
+
+# Large MD trajectories and restart outputs
+*.dcd
+*.restart.coor
+*.restart.vel
+*.restart.xsc
+*.xst
+*.oldpsf
+
+# CHARMM-GUI recovery copies (keep canonical folders)
+MUTANT_RECOVERED/
+WT_RECOVERED/
